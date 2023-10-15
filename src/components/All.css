@@ -1,0 +1,45 @@
+.div-item{
+    width: 400px;
+    height: 450px;
+}
+.div-item img{
+    width: 300px;
+    height: 250px;
+    border-radius: 20px;
+}
+.all-div{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+    justify-content: center;
+}
+.food-all{
+    
+    margin: 0 10%;
+}
+.item p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+}
+
+
+.items{
+    display: flex;
+    gap: 60px;
+   margin-left: 100px;
+}
+.all-btn button{
+   width: 100px;
+   height: 40px;
+   border-radius: 20px;
+   background-color: orange;
+   cursor: pointer;
+   border: none;
+   color: white;
+   font-weight: 600;
+}
+.all-btn{
+    margin-left: 150px;
+  
+    align-items: center;
+}
