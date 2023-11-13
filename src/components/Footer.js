@@ -34,7 +34,10 @@ function Footer() {
       <div className="food-footer3">
         <div className="food-footer4">
           <div className="footer1">
-            <p className="footer1-p" style={{ color: "orange" }}>
+            <p
+              className="footer1-p"
+              style={{ color: "orange", fontSize: "30px" }}
+            >
               Foodie
             </p>
             <p className="footer1-p2">

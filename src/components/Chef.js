@@ -25,7 +25,7 @@ function Chef() {
         </div>
 
         <div className="chef-img1">
-          <img src={chef3} alt="" className="chef-img3" />
+          <img src={chef3} alt="" className="chef-img4" />
           <p>Jamie Oliver</p>
         </div>
       </div>

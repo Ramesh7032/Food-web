@@ -8,23 +8,26 @@ import Footer from "./components/Footer";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Chef from "./components/Chef";
 import Login from "./components/Login";
+import Head from "./components/Head";
 function App() {
   return (
     <div className="App">
-      {/* <Additem /> */}/{" "}
+      {/* <Additem /> */}{" "}
       <Router>
-        <Home />
-        <About />
-        <Menu />
-        <Chef />
-        <Footer />
+        {/* <Home /> */}
+        <Head />
+
         <Routes>
-          <Route path="/" element={<MenuItems />} />
-          <Route path="/login" element={<Login />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/login" exact element={<Login />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/items" element={<Menu />} />
+          <Route path="/menu-items" element={<MenuItems />} />
+          <Route path="/chef" element={<Chef />} />
         </Routes>
       </Router>
+      <Footer />
       {/* <Biryani /> */}
-      <Login />
     </div>
   );
 }

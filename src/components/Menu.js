@@ -23,9 +23,9 @@ function Menu() {
   };
   // console.log(selectedCat);
   return (
-    <div>
+    <div className="menu-main">
       <div className="menu">
-        <div className="menu-head">
+        <div className="menu-head0">
           <p className="menu-head">Our Menu</p>
           <p className="menu-head1">
             Indulge in our diverse menu for an unforgettable dining journey.

@@ -1,3 +1,46 @@
+/* head component */
+.head-link{
+    text-decoration: none;
+    color: white;
+    
+    
+}
+.food-header img{
+    height: 80px;
+    width: auto;
+   
+}
+.head-li-link{
+    text-decoration: none;
+    color: black;
+}
+.food-header-link{
+    text-decoration: none;
+    color: orange;
+}
+.head-buttons p{
+    width: 140px;
+    border-radius: 30px;
+    height: 45px;
+    font-size: 16px;
+    font-weight: 700;
+    background-color:darkorange;
+    color: white;
+    border-style: none;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 0;
+    
+}
+.head-buttons p:hover{
+    transform: scale(1.1);
+    transition-duration: 700ms;
+}
+.head-buttons button:hover{
+    transform: scale(1.1);
+    transition-duration: 700ms;
+}
+
 .food-header li{
     list-style: none;
     font-weight: bold;
@@ -5,26 +48,39 @@
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     
 }
+.food-header li:hover{
+    transform: scale(1.1);
+    transition-duration: 700ms;
+    cursor: pointer;
+}
+
 .food-head-h3{
     margin-left: 20px;
     color: orange;
+}
+.food-head-h3:hover{
+    transform: scale(1.1);
+    transition-duration: 700ms;
+    cursor: pointer;
 }
 
 .food-header ul{
     display: flex;
     gap: 30px;
-    margin-left: 260px;
+    padding-left: 100px;
 }
 .food-header{
     display: flex;
-    margin-top: 30px;
-    margin-left: 100px;
+    padding-top: 30px;
+    padding-left: 100px;
 }
 
 .head-buttons{
     display: flex;
-    margin-left: 220px;
+    padding-left:13%;
     gap: 40px;
+
+    
 }
 .head-buttons button{
     width: 140px;
@@ -38,9 +94,29 @@
     cursor: pointer;
 }
 
+/* head responsive */
+/* @media (max-width: 480px) {
+   .food-header{
+    width: 100%;
+  }
+  .head-buttons{
+    display:block;
+    margin-left: 30px;
+}
+.head-buttons button{
+    margin-bottom: 10px;
+}
+} */
+
+/* Home component */
 .home-main{
     display: flex;
     padding-top: 40px;
+
+}
+.home-main1-p2 button:hover{
+    transform: scale(1.1);
+    transition-duration: 700ms;
 }
 .home-main1{
     width: 65%;
@@ -57,14 +133,16 @@
 .home-main1 p{
     font-size: 50px;
     font-weight: 700;
-    height: 0px; 
+    
 }
 .main1-p0{
     margin-right: 9%;
+    margin: 0 0; 
     
 }
 .main1-p{
 margin-right: 130px;
+margin: 0 0; 
 }
 .home-main1-p2 p{
     font-size: 20px;
@@ -72,6 +150,10 @@ margin-right: 130px;
     color: rgb(68, 67, 67);
     height: 5px;
    
+}
+.home-main2 img{
+    height: 70%;
+    border-radius: 20px;
 }
 .home-main1-p2 button{
     width: 140px;
@@ -90,17 +172,43 @@ margin-right: 130px;
     margin-left: 5px;
 }
 
+
+
+/* Home responsive */
+
+/* @media (max-width: 480px) {
+
+.food-home{
+    width: 100%;
+    margin: 2% 5%;
+}
+.home-main1{
+    width: 200%;
+    margin: 0% 10%;
+}
+.home-main1-p2{
+    margin-top: 40px;
+    
+}
+.home-main1-p2 button{
+    margin-left: 10px;
+}
+.home-main2 img{
+    margin-right: 30px;
+}
+} */
+
 /* about page */
 .food-about{
     display: flex;
-    margin: 5% 15%;
+    margin: 0 15%;
 }
 .food-about-div1 img{
-    height: 500px;
+    height: 70%;
     border-radius: 30px;
 }
 .food-about-div2{
-   margin: 90px 80px;
+   /* margin: 90px 80px; */
 }
 .about-heading{
     font-size: 40px;
@@ -123,17 +231,45 @@ margin-right: 130px;
     font-weight: 600;
     cursor: pointer;
 }
+.about-btn:hover{
+    transform: scale(1.1);
+    transition-duration: 500ms;
+}
+.about-main:hover{
+    transform: scale(1.05);
+    transition-duration: 600ms;
+}
 
-/* menu */
+.food-about-div1:hover{
+    transform: scale(1.05);
+    transition-duration: 700ms;
+}
+
+
+
+/* About page responsive */
+/* @media (max-width: 480px) {
+    .about-main{
+        margin: 0 30px;
+    }
+} */
+
+
+/* menu component */
 .menu-head{
     font-size: 40px;
     text-align: center;
     font-weight: 500;
     
+    
+}
+.menu-main{
+    margin-bottom: 30px;
 }
 .menu-head1{
-    font-size: 17px;
+    font-size: 18px;
     font-weight: 450;
+    text-align: center;
     
 }
 .menu-list{
@@ -171,6 +307,10 @@ margin-right: 130px;
     background-color: orange;
 
 }
+.menu-list button:hover{
+    transform: scale(1.1);
+    transition-duration: 600ms;
+}
  /* .menu-list a{
     width: 120px;
     font-size: 17px;
@@ -189,16 +329,43 @@ margin-right: 130px;
     color: white;
 }
 
+
+/* Menu responsive */
+/* @media (max-width: 480px){
+    .menu-head{
+       
+        margin-left: 250px;
+        width: 600px;
+    }
+    .menu-head1{
+      width: max-content;
+        margin-left: 300px;
+        }
+    .menu-list{
+        margin-left: 370px;
+        margin-top: 50px;
+        width: 100%;
+        
+    }
+} */
+
+/* Menu items responsive */
+
+
+
 /* //chef component */
 
 .food-chef{
-    margin: 2% 10%;
+    margin: 5% 10%;
 }
 .food-chef h1{
     text-align: center;
 }
 .food-chef p{
     text-align: center;
+}
+.chef-p1{
+    font-size: 19px;
 }
 .chef-img{
     display: flex;
@@ -207,17 +374,23 @@ margin-right: 130px;
     margin-top: 40px;
 }
 .chef-img1 img{
-    width: 350px;
+   width:300px;
     border-radius: 20px;
     
     
 }
-.chef-img2{
-    height: 580px;
+.chef-img2 {
+    height: 70%;
 }
 .chef-img3{
-    margin-top: 30px;
-    height: 500px;
+    padding-top: 30px;
+    height:60%;
+    
+}
+
+.chef-img4{
+    height: 60%;
+    padding-top: 30px;
 }
 
 .show-more-div{
@@ -240,16 +413,43 @@ margin-right: 130px;
     font-size: 25px;
     font-family:cursive;
 }
+.chef-img1 img:hover{
+    transform: scale(1.05);
+    transition-duration: 700ms;
+    cursor: pointer;
+}
 
+
+/* chef responsive */
+/* @media(max-width:480px){
+    .food-chef{
+        width:max-content;
+        justify-content: center;
+        margin: 2% 50%;
+
+    }
+    .chef-img{
+        display: contents;
+        justify-content: center;
+    }
+    .chef-img1{
+       
+    }
+    .chef-img img{
+        margin-left: 20%;
+    }
+    
+} */
 /* Footer component */
 
 .food-footer{
 
     bottom: 0;
+    width: 100%;
    
 }
 .food-footer1{
-    margin: 0% 15%;
+    margin: 0% 3%;
     background-color:bisque;
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
@@ -257,6 +457,7 @@ margin-right: 130px;
 }
 .food-footer2{
     padding-top: 40px;
+    margin: 0% 10%;
     padding-bottom: 70px;
     text-align: center;
     
@@ -297,17 +498,20 @@ margin-right: 130px;
     font-size: 16px;
 }
 .food-footer3{
-    margin: 0% 15%;
+    
+    margin: 0% 3%;
     
 
     background-color: grey;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
 }
 
 
 .food-footer4{
     display: flex;
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
+    margin: 0% 10%;
+   
 }
 .footer1{
     width: 34%;
@@ -356,4 +560,119 @@ margin-right: 130px;
     text-align: center;
     font-size: 17px;
    
+}
+.footer-btn button:hover{
+    transform: scale(1.1);
+    transition-duration: 700ms;
+}
+.footer-input:hover{
+    transform: scale(1.05);
+    transition-duration: 600ms;
+}
+
+
+/* Footer responsive */
+/* .food-footer{
+    width: max-content;
+} */
+
+/* Login page */
+
+.food-login2{
+    width: 70%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 30%;
+   /* background: url("../images/foodie.gif") no-repeat center center ;
+    position: relative; */
+    display: flex;
+
+
+    
+}
+.food-login3 img{
+    width: 500px;
+}
+.food-login1{
+    display: flex;
+    
+}
+.food-login1 button:hover{
+    /* background-color: rgb(118, 126, 123); */
+    transform: scale(1.05);
+    transition-duration: 600ms;
+}
+.food-login1 label{
+    margin-right: 180px;
+}
+.login-button1{
+    width: 80px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: orange;
+    color: white;
+    border-style: none;
+    cursor: pointer;
+    font-weight:bold;
+    
+}
+.login-button1{
+    margin-left: 20px;
+}
+.login-input input{
+    height:35px ;
+    width: 250px;
+    
+    border-radius: 15px;
+   
+    text-align: center;
+    font-size: 18px;
+    
+}
+.login-input1{
+    margin-bottom: 20px;
+}
+.forgot{
+    cursor: pointer;
+    color: blue;
+    margin-left: 200px;
+}
+.signup span{
+    color: blue;
+    cursor: pointer;
+}
+.login-input input:hover{
+    transform: scale(1.04);
+    transition-duration: 700ms;
+    
+}
+.forgot:hover{
+    transform: scale(1.05);
+    transition-duration: 600ms;
+}
+.login-icon{
+    font-size: 30PX;
+    cursor: pointer;
+}
+.login-icon:hover{
+    transform: scale(1.3);
+    transition-duration: 700ms;
+}
+.login-sign img{
+    width: 130px;
+    cursor: pointer;
+}
+.login-sign img:hover{
+    transform: scale(1.1);
+    transition-duration: 700ms;
+}
+.login-btn{
+    width: 35%;
+    height:40px;
+    color:blue;
+   border: none;
+   font-size: 20px;
+   cursor:pointer;
+   background-color: white;
 }
